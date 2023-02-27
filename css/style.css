@@ -1,0 +1,192 @@
+    /**    link fonts    **/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    body {
+        font-family: 'Cairo', sans-serif;
+    }
+    /**    header    **/
+    
+    .header {
+        background: rgb(92, 182, 185);
+        color: white;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .header a {
+        float: right;
+        margin-top: 5px;
+    }
+    /**    end  header    **/
+    /**     start slider    **/
+    
+    .carousel-indicators li {
+        height: 30px;
+        background-color: rgba(212, 238, 241, 0.904);
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 225, 255, 0.199);
+        position: absolute;
+        z-index: 1;
+    }
+    /**     end slider    **/
+    /**     start featuers    **/
+    
+    .feutuers {
+        margin-top: 75px;
+    }
+    
+    .feutuers i {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(91, 226, 241, 0.904);
+        line-height: 100px;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .feutuers h3 {
+        display: inline-block;
+        background-color: rgba(197, 238, 243, 0.904);
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .feutuers p {
+        color: rgb(82, 81, 81);
+        line-height: 1.8;
+    }
+    
+    .feutuers h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    /**     end featuers    **/
+    /**     start our team    **/
+    
+    .our-team {
+        background-color: #eee;
+        padding: 20px;
+        background-image: url("../images/R.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 3px solid rgba(197, 238, 243, 0.904);
+    }
+    
+    .card img {
+        width: 290px;
+        height: 300px;
+    }
+    /**     end our team   **/
+    /**        start Statistic   **/
+    
+    .Statistic {
+        margin-top: 100px;
+        width: 100%;
+        height: 500px;
+        background-image: url("../images/r2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .Statistic .dverlay {
+        padding-top: 100px;
+        background-color: rgba(0, 0, 0, 0.295);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Statistic .dverlay h3 {
+        color: white;
+    }
+    
+    .Statistic .dverlay p {
+        color: white;
+        font-size: 100px;
+    }
+    /**        end Statistic   **/
+    /**        start Our_customers   **/
+    
+    .Our_customers {
+        background-color: #eee;
+        line-height: 200px;
+        background-image: url("../images/R.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        border-bottom: 3px solid rgba(197, 238, 243, 0.904);
+    }
+    /**        end Our_customers   **/
+    /**        start recent news   **/
+    
+    .recent_news .btn-danger {
+        background-color: #0c8c9b;
+        border-color: #2fcfe0;
+    }
+    
+    .recent_news .btn-danger:hover {
+        background-color: #104950;
+    }
+    /**        end recent news   **/
+    /**        start footer   **/
+    
+    footer {
+        background-color: #2fcfe0;
+        padding: 30px;
+        /** background-image: url("../images/R.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;**/
+        margin-top: 100px;
+    }
+    
+    footer p {
+        color: white;
+    }
+    
+    footer h2 {
+        color: white;
+    }
+    
+    footer a {
+        color: white;
+    }
+    
+    footer a:hover {
+        color: black;
+    }
+    
+    footer ul li {
+        list-style: none;
+    }
+    /**        end footer   **/
+    /**        start blogs   **/
+    
+    .jumbotron {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .jumbotron .blog_info {
+        flex: 2;
+    }
+    
+    .jumbotron .blog_image {
+        flex: 1;
+    }
+    
+    .blog_details p {
+        line-height: 2;
+        padding: 10px;
+    }
+    /**courses**/
+    
+    .courses img:hover {
+        transform: scale(1.1);
+    }
